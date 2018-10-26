@@ -1,4 +1,4 @@
-# X-Team NN Project Proposal
+# X-Team 21 Project Proposal Expenditure Tracker
 
 See https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code for tips on using *Markdown* tags to format __.md__ files
 
@@ -32,30 +32,42 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 Briefly describe a problem that your team would like to solve.  
 Describe at a high level a program that could solve that problem.
 
+A problem we would to solve is the fastest route to a place in Madison considering distance and bus schedules. 
+The program would fundamentally build off a directed graph that has weights and considers time it takes to walk and also bus schedules to find the fastest way to get a location. 
+
 ## Questions to answer for Exercise #2
 
 1. Name: Give your project proposal a name (and edit the top line of this file)
 
+UW-Madison Campus Navigator
 
+2. Output: Describe the output your program will produce.  Include an example format of the output produced.
 
-2. Output: Describe the output your program will produce.  Include and example format of the output produced.
+The output would be the ideal route, transportation method, and time needed to get to a location. 
 
-
+TIME | BUS NUMBER | BUS STOP START | BUS STOP EXIT | WALKING DISTANCE
+   8 |         80 |      Lake/Park | Regent/Spring |           0.5 mi
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
 
+The data needed is movement speed, start location, destination, and starting time.
 
+SPEED | START LOCATION| END LOCATION | START TIME
+5 mph |   Bascom Hall |    Steenbock |    9:00 AM
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
 
-
+The user interface would be a text menu that would take the inputs from the user and then just display the ideal route.
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
 
-
-
 Name each interface or class and briefly describe its function or purpose.
 
+MapGraph: Graph to hold the nodes
+LocationNode: Each individual location on campus
+RouteEdge: Edges between LocationNodes that have the weighted edge values for the route distances
+MenuUI: Displays User Interface, collects inputs and displays output
+Main: Runs the program
 
 ## Edit and Submit this file and any figures referenced by this document.
 
