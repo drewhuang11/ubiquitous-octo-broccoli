@@ -1,4 +1,4 @@
-# X-Team 21 Project Proposal Expenditure Tracker
+# X-Team 21 Project Proposal Campus Navigator
 
 See https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code for tips on using *Markdown* tags to format __.md__ files
 
@@ -39,7 +39,7 @@ The program would fundamentally build off a directed graph that has weights and 
 
 1. Name: Give your project proposal a name (and edit the top line of this file)
 
-UW-Madison Campus Navigator
+Campus Navigator
 
 2. Output: Describe the output your program will produce.  Include an example format of the output produced.
 
