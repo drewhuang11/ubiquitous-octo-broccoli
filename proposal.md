@@ -66,9 +66,13 @@ The user interface would be a text menu that would take the inputs from the user
 Name each interface or class and briefly describe its function or purpose.
 
 MapGraph: Graph to hold the nodes
+
 LocationNode: Each individual location on campus
+
 RouteEdge: Edges between LocationNodes that have the weighted edge values for the route distances
+
 MenuUI: Displays User Interface, collects inputs and displays output
+
 Main: Runs the program
 
 ## Edit and Submit this file and any figures referenced by this document.
