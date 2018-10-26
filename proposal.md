@@ -46,6 +46,7 @@ UW-Madison Campus Navigator
 The output would be the ideal route, transportation method, and time needed to get to a location. 
 
 TIME | BUS NUMBER | BUS STOP START | BUS STOP EXIT | WALKING DISTANCE
+
    8 |         80 |      Lake/Park | Regent/Spring |           0.5 mi
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
@@ -53,6 +54,7 @@ TIME | BUS NUMBER | BUS STOP START | BUS STOP EXIT | WALKING DISTANCE
 The data needed is movement speed, start location, destination, and starting time.
 
 SPEED | START LOCATION| END LOCATION | START TIME
+
 5 mph |   Bascom Hall |    Steenbock |    9:00 AM
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
