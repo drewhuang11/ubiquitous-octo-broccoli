@@ -10,12 +10,12 @@
        * GitHub username 1: drewhuang11       name 1: Drew Huang
        * GitHub username 2: xiongsee007       name 2: Seesavanh Xiong
        * GitHub username 3: leon5288          name 3: Leon Zhang
-       * GitHub username 4:       name 4:
+       * GitHub username 4: tbell5            name 4: Tucker Bell
        * GitHub username 5:       name 5:
    * When did you complete this exercise? 
       10/26/18
    * How long did it take your team to complete this exercise? 
-
+      1 Hour
 ## Table of Contents
 
 1. README.md - overview of files in this repository (this file)
